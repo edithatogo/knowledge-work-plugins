@@ -41,7 +41,6 @@ Release of information (ROI), consent management, medical records retention, and
 ## Dependencies
 
 - `health-core` (plugin structure)
-- `health-compliance` (for regulatory requirements)
 
 ## Adapts From
 

@@ -56,7 +56,7 @@ Description and instructions for Claude to follow.
 Servers configured in `.mcp.json`:
 ```json
 {
-  "servers": {
+  "mcpServers": {
     "server-name": {
       "type": "stdio|sse|http",
       "command": "...",
