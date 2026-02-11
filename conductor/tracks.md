@@ -67,7 +67,7 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ### Summary
 
-- **18 tracks** total (1 meta + 17 implementation)
+- **19 tracks** total (1 meta + 18 implementation)
 - **30 skills** across all tracks
 - **14 commands** for key workflows
 - **4 phases** of execution
@@ -78,3 +78,9 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 - `active` - Implementation underway
 - `paused` - Temporarily halted
 - `complete` - Finished and verified
+
+## Infrastructure Tracks
+
+| Track | Description | Status |
+|-------|-------------|--------|
+| [skill-quality](./tracks/skill-quality/) | Improve 50+ existing skills across all plugins | planning |

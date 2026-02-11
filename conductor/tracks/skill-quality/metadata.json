@@ -1,0 +1,12 @@
+{
+  "track_id": "skill-quality",
+  "name": "Skill Quality Improvement",
+  "description": "Systematic improvements to existing skills across all plugins: standardization, depth, cross-references, and quality gates",
+  "status": "planning",
+  "created": "2026-02-11",
+  "priority": "medium",
+  "dependencies": [],
+  "deliverable": "Updated skill files with consistent structure, triggers, anti-patterns, and quality standards",
+  "phases": 3,
+  "total_skills_affected": 50
+}
