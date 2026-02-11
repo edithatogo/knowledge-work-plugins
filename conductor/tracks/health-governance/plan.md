@@ -1,0 +1,30 @@
+# Health Governance Track Plan
+
+## Phase 1: Policy Development Skill
+*Dependencies: health-core*
+*Estimated: 1 session*
+
+- [ ] Create `health/skills/policy-development/SKILL.md`
+  - Acceptance: Policy structure template
+  - Acceptance: Approval workflow
+  - Acceptance: Review cycle management
+  - Source patterns: `legal/compliance`
+
+## Phase 2: Procedure Development Skill
+*Dependencies: Phase 1*
+*Estimated: 1 session*
+
+- [ ] Create `health/skills/procedure-development/SKILL.md`
+  - Acceptance: Procedure documentation format
+  - Acceptance: Process mapping guidance
+
+## Phase 3: Guideline Development Skill
+*Dependencies: Phase 1*
+*Estimated: 1 session*
+
+- [ ] Create `health/skills/guideline-development/SKILL.md`
+  - Acceptance: Clinical guideline structure
+  - Acceptance: Evidence grading integration
+  - Acceptance: NHMRC guidance levels
+
+**Checkpoint:** `conductor(checkpoint): Health governance workflow complete`

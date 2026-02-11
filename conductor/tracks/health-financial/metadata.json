@@ -1,0 +1,11 @@
+{
+  "track_id": "health-financial",
+  "name": "Health Financial",
+  "description": "Charge capture review, payer contract management, grant management, revenue cycle",
+  "status": "planning",
+  "created": "2026-02-11",
+  "priority": "medium",
+  "dependencies": ["health-core"],
+  "deliverable": "payer-contracts, charge-capture, grant-management skills",
+  "adapts_from": ["legal/contract-review", "finance/reconciliation"]
+}
