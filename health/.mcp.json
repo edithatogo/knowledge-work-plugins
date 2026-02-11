@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "sharepoint": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sharepoint"],
+      "env": {
+        "SHAREPOINT_TENANT": "${SHAREPOINT_TENANT}",
+        "SHAREPOINT_CLIENT_ID": "${SHAREPOINT_CLIENT_ID}",
+        "SHAREPOINT_CLIENT_SECRET": "${SHAREPOINT_CLIENT_SECRET}"
+      },
+      "disabled": true
+    },
+    "jira": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-jira"],
+      "env": {
+        "JIRA_BASE_URL": "${JIRA_BASE_URL}",
+        "JIRA_EMAIL": "${JIRA_EMAIL}",
+        "JIRA_API_TOKEN": "${JIRA_API_TOKEN}"
+      },
+      "disabled": true
+    },
+    "fhir": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fhir"],
+      "env": {
+        "FHIR_BASE_URL": "${FHIR_BASE_URL}",
+        "FHIR_CLIENT_ID": "${FHIR_CLIENT_ID}",
+        "FHIR_CLIENT_SECRET": "${FHIR_CLIENT_SECRET}"
+      },
+      "disabled": true
+    }
+  }
+}

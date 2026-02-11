@@ -3,7 +3,7 @@
 ## Phase 1: Plugin Skeleton
 *Estimated: 1 session*
 
-- [ ] Create `health/` directory structure
+- [~] Create `health/` directory structure
   - Acceptance: Matches spec structure
 - [ ] Create `health/.claude-plugin/plugin.json`
   - Acceptance: Valid JSON, installs successfully
