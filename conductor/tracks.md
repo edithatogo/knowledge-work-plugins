@@ -46,7 +46,7 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ### Track Registry (Canonical)
 
-- [~] **Track: health-complaints** (./tracks/health-complaints/)
+- [x] **Track: health-complaints** (./tracks/health-complaints/)
   - Description: Patient complaints
   - Phase: 2
   - Adapts From: customer-support/ticket-triage
