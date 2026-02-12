@@ -4,9 +4,10 @@
 *Dependencies: health-core*
 *Estimated: 1 session*
 
-- [ ] Create `health/skills/credentialing/SKILL.md`
+- [x] Create `health/skills/credentialing/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: Includes Confidence Indicators for primary source verification
+  - Acceptance: AU/NZ credentialing defaults are explicit, with US/EU-lite fallback
   - Acceptance: PHI/PII guardrails for provider data
   - Acceptance: Credentialing workflow by provider type
   - Acceptance: Primary source verification checklist
@@ -16,7 +17,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1 session*
 
-- [ ] Create `health/skills/privileging/SKILL.md`
+- [x] Create `health/skills/privileging/SKILL.md`
   - Acceptance: Privilege delineation categories
   - Acceptance: Competency verification requirements
   - Acceptance: Renewal timeline tracking
@@ -25,7 +26,7 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [ ] Create `health/commands/verify-credentials.md`
+- [x] Create `health/commands/verify-credentials.md`
   - Acceptance: Initiates verification workflow
   - Acceptance: Tracks verification status
 
