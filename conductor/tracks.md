@@ -52,7 +52,7 @@ Phase: 3
 Adapts From: legal/contract-review
 
 ---
-## [ ] Track: health-quality - QI, accreditation
+## [x] Track: health-quality - QI, accreditation
 Folder: [./tracks/health-quality/](./tracks/health-quality/)
 Phase: 3
 Adapts From: product-management
