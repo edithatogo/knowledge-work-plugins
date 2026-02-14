@@ -26,6 +26,6 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [x] Create `health/commands/qi-project.md`
+- [x] Create `health/commands/qi-project.md` [f6ea7a4]
 
 **Checkpoint:** `conductor(checkpoint): Health quality workflow complete`
