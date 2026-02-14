@@ -25,7 +25,7 @@ Use this command when:
 
 ### 1. Multi-Source Search
 
-Use `~~google-search` and `~~real-estate-next/shadow-workflow` to:
+Use `~~google-search` and `~~real-estate/shadow-workflow` to:
 - Find recent business news or LinkedIn activity for `client_name`.
 - Identify recent property transactions associated with their name/company (Public Record).
 

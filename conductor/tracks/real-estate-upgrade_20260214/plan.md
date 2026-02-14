@@ -1,9 +1,9 @@
 # Plan: Real Estate Next Upgrade
 
 ## Phase 1: Infrastructure & Renaming
-- [x] Rename directory to `real-estate-next`.
+- [x] Rename directory to `real-estate`.
 - [x] Update `plugin.json` name and version (1.1.0).
-- [x] Global replace `real-estate` -> `real-estate-next`.
+- [x] Global replace `real-estate` -> `real-estate`.
 - [x] Update `README.md` with contractor focus.
 
 ## Phase 2: Documentation & OpenClaw

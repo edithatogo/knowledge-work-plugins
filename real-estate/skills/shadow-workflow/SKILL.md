@@ -1,5 +1,5 @@
 ---
-name: real-estate-next/shadow-workflow
+name: real-estate/shadow-workflow
 description: This skill enables independent contractors to maintain a high-leverage "Shadow Workflow" outside of corporate oversight. It provides logic for parsing Vault RE webhooks, synthesizing forwarded emails using Gemini Pro, sanitizing private drafts, and mirroring corporate tasks into private admin logs. Invoke when users mention webhooks, forwarded emails, private Workspace, or avoiding oversight.
 version: 1.0.0
 ---
@@ -120,6 +120,6 @@ You've applied this skill well when:
 
 ## Related Skills
 
-- `~~real-estate-next/marketing-suite` - For personal brand content templates.
-- `~~real-estate-next/lead-management` - For the "Hot Lead" ranking within the shadow database.
-- `~~real-estate-next/compliance-closer` - For REA checks on private drafts.
+- `~~real-estate/marketing-suite` - For personal brand content templates.
+- `~~real-estate/lead-management` - For the "Hot Lead" ranking within the shadow database.
+- `~~real-estate/compliance-closer` - For REA checks on private drafts.

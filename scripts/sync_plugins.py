@@ -14,6 +14,9 @@ TARGETS = {
     "opencode": HOME / ".opencode" / "skills",
     "claude": HOME / ".claude" / "skills",
     "antigravity": HOME / ".gemini" / "antigravity" / "skills",
+    "codex": HOME / ".codex" / "skills",
+    "copilot": HOME / ".config" / "github-copilot",
+    "qwen": HOME / ".qwen" / "skills",
 }
 
 def sync_plugins():
@@ -25,6 +28,22 @@ def sync_plugins():
     for target_name, target_base_path in TARGETS.items():
         print(f"  Syncing to {target_name} ({target_base_path})...")
         
+        # Copilot uses a consolidated file approach
+        if target_name == "copilot":
+            consolidated_path = target_base_path / "knowledge-work-plugins.md"
+            target_base_path.mkdir(parents=True, exist_ok=True)
+            all_content = ["# Knowledge Work Plugins Collection", ""]
+            for category_dir in categories:
+                category_name = category_dir.name
+                skills_dir = category_dir / "skills"
+                for skill_dir in skills_dir.iterdir():
+                    if skill_dir.is_dir() and (skill_dir / "SKILL.md").exists():
+                        all_content.append(f"## Category: {category_name} | Skill: {skill_dir.name}")
+                        all_content.append((skill_dir / "SKILL.md").read_text(encoding="utf-8"))
+                        all_content.append("\n---\n")
+            consolidated_path.write_text("\n".join(all_content), encoding="utf-8")
+            continue
+
         for category_dir in categories:
             category_name = category_dir.name
             skills_dir = category_dir / "skills"

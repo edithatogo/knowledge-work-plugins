@@ -25,7 +25,7 @@ Use this command when:
 
 ### 1. Gemini Pro Synthesis (The Shadow Brain)
 
-Use `~~real-estate-next/shadow-workflow` to:
+Use `~~real-estate/shadow-workflow` to:
 - Summarize the `email_thread` (identifying emotional cues, deadlines, and requirements).
 - Cross-reference with `property_context` (e.g., "This buyer liked Petone but is now asking about Waterloo").
 
@@ -57,5 +57,5 @@ Would you like to schedule an OpenClaw 'market update' for Petone to maintain pr
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate-next/shadow-workflow`.
+- **Skill**: Uses `~~real-estate/shadow-workflow`.
 - **Downstream**: Feeds into `/prepare-negotiation`.

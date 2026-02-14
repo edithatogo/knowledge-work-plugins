@@ -25,7 +25,7 @@ Use this command when:
 
 ### 1. JSON Parsing
 
-Use `~~real-estate-next/shadow-workflow` to:
+Use `~~real-estate/shadow-workflow` to:
 - Extract key entities (Contact Name, Property Address, User ID).
 - Identify the specific trigger (e.g., "Signed via Secure Sign").
 
@@ -58,5 +58,5 @@ Would you like to draft the OpenClaw teaser for this listing? [Y/n]
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate-next/shadow-workflow`.
+- **Skill**: Uses `~~real-estate/shadow-workflow`.
 - **Downstream**: Feeds into `/draft-listing`.

@@ -1,10 +1,10 @@
 # Specification: Real Estate Next Upgrade
 
 ## Overview
-Evolution of the `real-estate` plugin into `real-estate-next`. This version is optimized for independent contractors maintaining a "Shadow Workflow" via private Google Workspace accounts, Vault RE webhooks, and OpenClaw branding.
+Evolution of the `real-estate` plugin into `real-estate`. This version is optimized for independent contractors maintaining a "Shadow Workflow" via private Google Workspace accounts, Vault RE webhooks, and OpenClaw branding.
 
 ## Changes
-- Rename all `real-estate` references to `real-estate-next`.
+- Rename all `real-estate` references to `real-estate`.
 - Add `shadow-workflow` skill for data sovereignty and private admin logic.
 - Add `OPENCLAW.md` documentation for personal brand management.
 - Implement `/webhook-audit`, `/shadow-sync`, `/private-brief`, and `/client-intel` commands.

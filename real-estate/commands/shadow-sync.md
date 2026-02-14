@@ -25,7 +25,7 @@ Use this command when:
 
 ### 1. Data Aggregation
 
-Use `~~real-estate-next/shadow-workflow` to:
+Use `~~real-estate/shadow-workflow` to:
 - Collect recent activity logs from the `source`.
 - Filter for high-value intelligence (e.g., specific buyer feedback).
 
@@ -56,5 +56,5 @@ Next Step: Run /private-brief for listing '123 Petone' to prepare for settlement
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate-next/shadow-workflow`.
+- **Skill**: Uses `~~real-estate/shadow-workflow`.
 - **Downstream**: Feeds into `/private-brief`.
