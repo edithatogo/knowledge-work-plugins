@@ -4,7 +4,7 @@
 *Dependencies: health-core*
 *Estimated: 1-2 sessions*
 
-- [x] Create `health/skills/payer-contracts/SKILL.md`
+- [x] Create `health/skills/payer-contracts/SKILL.md` [d64d41b]
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: Includes Confidence Indicators for contract risk
   - Acceptance: AU/NZ financial and payer defaults are explicit, with US/EU-lite fallback
