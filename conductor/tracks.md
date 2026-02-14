@@ -116,3 +116,8 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 - Tasks should include `Owner:` and `Updated:` context at section level for accountability.
 - Tracks with no `IN PROGRESS` task should remain `planning`.
 - Explicit blockers should be marked with `BLOCKER:` or `BLOCKED:` so status tooling can detect them.
+
+---
+
+- [ ] **Track: Establish a Strategic Equalizer plugin for Ministers and Ministerial staffers to audit and challenge bureaucratic advice.**
+*Link: [./tracks/ministerial-audit_20260214/](./tracks/ministerial-audit_20260214/)*
