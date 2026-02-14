@@ -27,7 +27,7 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [~] Create `health/commands/review-payer-contract.md`
+- [x] Create `health/commands/review-payer-contract.md` [98561cc]
   - Acceptance: Contract intake workflow
   - Acceptance: Generates analysis report
 
