@@ -4,7 +4,7 @@
 *Dependencies: health-core*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/medicolegal-reports/SKILL.md`
+- [x] Create `health/skills/medicolegal-reports/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: AU/NZ medicolegal defaults are explicit, with US/EU-lite fallback
   - Acceptance: Standard mode and Lite mode are explicitly documented
@@ -20,7 +20,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1 session*
 
-- [ ] Create `health/skills/child-protection/SKILL.md`
+- [x] Create `health/skills/child-protection/SKILL.md`
   - Acceptance: Mandatory reporting triggers
   - Acceptance: Report structure template
   - Acceptance: Risk assessment documentation
@@ -30,7 +30,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1 session*
 
-- [ ] Create `health/skills/affidavit-drafting/SKILL.md`
+- [x] Create `health/skills/affidavit-drafting/SKILL.md`
   - Acceptance: Affidavit structure
   - Acceptance: Swearing requirements
   - Acceptance: Court formatting
@@ -40,7 +40,7 @@
 *Dependencies: Phases 1-3*
 *Estimated: 0.5 sessions*
 
-- [ ] Create `health/commands/prepare-report.md`
+- [x] Create `health/commands/prepare-report.md`
   - Acceptance: Document type selection
   - Acceptance: Jurisdiction selection
   - Acceptance: Generates appropriate template

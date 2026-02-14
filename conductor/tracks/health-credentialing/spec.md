@@ -1,54 +1,84 @@
-# Health Credentialing Track Specification
+# Health Credentialing and Privileging Specification
 
 ## Overview
 
-Provider credentialing, privileging, license verification, and clinical staff onboarding/offboarding workflows.
+Medical staff credentialing and privileging workflows including primary source verification, competency assessment, and ongoing professional practice evaluation (FPPE/OPPE).
 
 ## Scope
 
 ### Credentialing
-- Initial credentialing applications
+- Application processing
 - Primary source verification
-- Background check coordination
-- Credential committee preparation
+- Education and training verification
+- Work history verification
+- References and recommendations
+- Sanctions/ disciplinary history
 
 ### Privileging
-- Delineation of privileges
-- Competency verification
-- Proctoring arrangements
-- Privilege renewals
+- Scope of practice definition
+- Privilege request evaluation
+- Competency assessment
+- Proctoring requirements
+- Temporary privileges
+- Emergency privileges
 
-### License Management
-- License tracking and expiration alerts
-- DEA certification
-- Board certifications
-- Malpractice history
-
-### Onboarding/Offboarding
-- Orientation workflows
-- Access provisioning
-- Termination procedures
+### Ongoing Monitoring
+- FPPE (Focused Professional Practice Evaluation)
+- OPPE (Ongoing Professional Practice Evaluation)
+- Reappointment process
+- Continuing education tracking
+- Performance metrics review
 
 ## Deliverables
 
 ### Skills
-- `credentialing` - Credentialing workflow and verification
-- `privileging` - Privilege delineation and management
+- `credentialing` - Credential verification workflows
+- `privileging` - Privilege request and evaluation
 
 ### Commands
-- `/verify-credentials` - Initiate credential verification
+- `/verify-credentials` - Check credential status
 
 ## Dependencies
 
 - `health-core` (plugin structure)
+- `health-governance` (for policy alignment)
+- `health-quality` (for OPPE data)
 
 ## Adapts From
 
-- `productivity/memory-management` - Tracking context and reminders
+- `productivity/memory-management` - Tracking and reminders
+- `legal/compliance` - Compliance verification
 
 ## Success Criteria
 
-- [ ] Guides initial credentialing process
-- [ ] Tracks verification requirements by provider type
-- [ ] Supports privilege delineation
-- [ ] Identifies re-credentialing timelines
+- [ ] Verifies all credentials from primary sources
+- [ ] Documents verification evidence
+- [ ] Evaluates privilege requests consistently
+- [ ] Tracks expiration dates
+- [ ] Manages proctoring requirements
+- [ ] Supports reappointment workflows
+
+## Regulatory Context
+
+### Standards
+- AHPRA (Australia) / MCNZ (NZ) registration requirements
+- Professional indemnity insurance
+- Continuing professional development
+- Recency of practice
+
+### Australia
+- National Law (Health Practitioner Regulation)
+- AHPRA registration standards
+- State/Territory credentialing requirements
+
+### New Zealand
+- Health Practitioners Competence Assurance Act
+- MCNZ registration requirements
+- DHB credentialing standards
+
+### Timeframes
+- Initial credentialing: 60-90 days
+- Reappointment: Every 2-3 years
+- Temporary privileges: 120 days max
+- FPPE: Initial 6 months
+- OPPE: Ongoing, reviewed every 2 years

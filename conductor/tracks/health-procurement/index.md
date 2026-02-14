@@ -1,16 +1,16 @@
-# Health-procurement Track
+# Health Procurement
 
-## Documents
+Track implementing healthcare procurement workflows.
 
-- [Specification](./spec.md)
-- [Implementation Plan](./plan.md)
-- [Metadata](./metadata.json)
+## Deliverables
 
-## Quick Links
-
-- [Project Index](../../index.md)
-- [Tracks Registry](../../tracks.md)
+- **Skills**: device-procurement, business-case
+- **Commands**: /procurement-request, /business-case
 
 ## Status
 
-See [metadata.json](./metadata.json) for current status and dependencies.
+Complete
+
+## Dependencies
+
+- health-core

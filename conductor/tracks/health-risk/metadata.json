@@ -1,13 +1,11 @@
 {
   "track_id": "health-risk",
-  "name": "Health Risk Assessment",
-  "description": "Multi-domain risk assessment - clinical risk, clinician/worker risk, enterprise risk, clinical services plan risk, medicine standing orders risk",
-  "status": "planning",
-  "created": "2026-02-11",
+  "name": "Health Risk Management",
+  "description": "Clinical risk assessment, worker safety risk, enterprise risk management, and risk register maintenance",
+  "status": "complete",
+  "created": "2026-02-14",
   "priority": "high",
   "dependencies": ["health-core"],
   "deliverable": "clinical-risk, worker-risk, enterprise-risk skills, /assess-risk command",
-  "adapts_from": ["legal/legal-risk-assessment"],
-  "jurisdictions": ["Australia", "New Zealand"],
-  "lite_variants": ["US", "EU"]
+  "adapts_from": ["legal/legal-risk-assessment", "finance/financial-statements"]
 }

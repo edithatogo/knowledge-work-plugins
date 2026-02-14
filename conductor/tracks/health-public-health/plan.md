@@ -4,7 +4,7 @@
 *Dependencies: health-core, health-coding*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/notifiable-diseases/SKILL.md`
+- [x] Create `health/skills/notifiable-diseases/SKILL.md` [created]
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: AU/NZ notification defaults are explicit, with US/EU-lite fallback
   - Acceptance: Standard mode and Lite mode are explicitly documented
@@ -19,7 +19,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1 session*
 
-- [ ] Create `health/skills/public-health-surveillance/SKILL.md`
+- [x] Create `health/skills/public-health-surveillance/SKILL.md` [created]
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: AU/NZ surveillance defaults are explicit, with US/EU-lite fallback
   - Acceptance: Surveillance types overview
@@ -30,7 +30,7 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [ ] Create `health/commands/report-notifiable.md`
+- [x] Create `health/commands/report-notifiable.md` [created]
   - Acceptance: Disease selection
   - Acceptance: Jurisdiction selection
   - Acceptance: Generates notification checklist

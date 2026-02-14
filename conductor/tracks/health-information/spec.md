@@ -1,55 +1,79 @@
-# Health Information Management Track Specification
+# Health Information Governance Specification
 
 ## Overview
 
-Release of information (ROI), consent management, medical records retention, and privacy compliance.
+Health information governance including release of information (ROI), consent management, privacy compliance, and records management. Ensures compliant handling of patient health information.
 
 ## Scope
 
-### Release of Information (ROI)
-- Authorization validation
-- Request processing workflow
-- Minimum necessary standard
-- Accounting of disclosures
+### Release of Information
+- Third-party requests
+- Patient access requests
+- Legal/judicial requests
+- Research access
+- Insurance requests
 
 ### Consent Management
 - Treatment consent
+- Procedure-specific consent
 - Research consent
-- Advance directives
-- Proxy/representative documentation
+- Release of information consent
+- Withdrawal of consent
+
+### Privacy Compliance
+- Privacy Act (AU) / Privacy Act (NZ) compliance
+- APP/IPP compliance
+- Data breach response
+- Privacy impact assessments
 
 ### Records Management
 - Retention schedules
 - Destruction protocols
-- Legal hold management
-- Format requirements
-
-### Privacy
-- Breach assessment
-- Patient rights requests
-- Notice of privacy practices
+- Archive management
+- Legal hold procedures
 
 ## Deliverables
 
 ### Skills
-- `release-of-information` - ROI processing workflow
-- `consent-management` - Consent types and documentation
+- `release-of-information` - Process ROI requests
+- `consent-management` - Handle consent workflows
 
 ### Commands
-- `/process-roi` - Process release of information request
+- `/process-roi` - Initiate ROI workflow
 
 ## Dependencies
 
 - `health-core` (plugin structure)
+- `health-governance` (for policy alignment)
 
 ## Adapts From
 
-- `legal/compliance` - Privacy regulations
-- `customer-support/response-drafting` - Patient communications
+- `legal/compliance` - Compliance frameworks
+- `document-skills/docx` - Document processing
 
 ## Success Criteria
 
-- [ ] Validates authorization requirements
-- [ ] Guides ROI processing with minimum necessary
-- [ ] Tracks consent documentation
-- [ ] Applies retention schedules correctly
+- [ ] Validates authorization for information release
+- [ ] Applies correct consent standards
+- [ ] Maintains audit trails
+- [ ] Ensures timely response to requests
+- [ ] Protects against unauthorized disclosure
+- [ ] Handles data breaches appropriately
+
+## Regulatory Context
+
+### Australia
+- Privacy Act 1988 (Cth)
+- Australian Privacy Principles (APPs)
+- State/Territory health records legislation
+- My Health Records Act
+
+### New Zealand
+- Privacy Act 2020
+- Health Information Privacy Code
+- Health (Retention of Health Information) Regulations
+
+### Timeframes
+- Patient access: 30 days (AU), 20 working days (NZ)
+- Data breach notification: As soon as practicable
+- Records retention: Minimum 7 years (adult), until age 25 (children)

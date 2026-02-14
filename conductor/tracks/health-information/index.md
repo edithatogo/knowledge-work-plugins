@@ -1,16 +1,16 @@
-# Health-information Track
+# Health Information Governance
 
-## Documents
+Track implementing health information governance workflows.
 
-- [Specification](./spec.md)
-- [Implementation Plan](./plan.md)
-- [Metadata](./metadata.json)
+## Deliverables
 
-## Quick Links
-
-- [Project Index](../../index.md)
-- [Tracks Registry](../../tracks.md)
+- **Skills**: release-of-information, consent-management
+- **Commands**: /process-roi
 
 ## Status
 
-See [metadata.json](./metadata.json) for current status and dependencies.
+Complete
+
+## Dependencies
+
+- health-core

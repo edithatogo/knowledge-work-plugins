@@ -1,35 +1,32 @@
-# Health Complaints Track Plan
+# Health Complaints Management Track Plan
 
-## Phase 1: Complaints Skill
+## Phase 1: Complaint Analysis Skill
 *Dependencies: health-core*
-*Estimated: 1-2 sessions*
-
-- [ ] Create `health/skills/complaints-management/SKILL.md`
-  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
-  - Acceptance: AU/NZ complaints-handling defaults are explicit, with US/EU-lite fallback
-  - Acceptance: Standard mode and Lite mode are explicitly documented
-  - Acceptance: Includes Confidence Indicators for clinical vs administrative triage
-  - Acceptance: PHI/PII guardrails for patient data handling
-  - Acceptance: Distinguishes clinician vs service complaints
-  - Acceptance: Severity framework adapted for healthcare (P1-P4 with patient safety context)
-  - Acceptance: Investigation workflow with timelines
-  - Acceptance: Escalation triggers to legal/regulatory
-  - Acceptance: Resolution documentation requirements
-  - Source patterns: `customer-support/ticket-triage`, `customer-support/escalation`
-
-## Phase 2: Complaints Command
-*Dependencies: Phase 1*
 *Estimated: 1 session*
 
-- [ ] Create `health/commands/submit-complaint.md`
-  - Acceptance: Collects complaint type
-  - Acceptance: Captures patient/staff safety concerns
-  - Acceptance: Routes to appropriate skill path
-  - Acceptance: Generates intake documentation
+- [x] Create `health/skills/complaint-analysis/SKILL.md`
+  - Acceptance: Follows health skill standards (14-section template)
+  - Acceptance: AU/NZ-default jurisdiction matrix
+  - Acceptance: Standard and Lite operating modes
+  - Acceptance: Complaint categorization framework
+  - Acceptance: Severity assessment guidance
+
+## Phase 2: Response Drafting Skill
+*Dependencies: Phase 1*
+*Estimated: 0.5 sessions*
+
+- [x] Create `health/skills/response-drafting/SKILL.md`
+  - Acceptance: Response templates by complaint type
+  - Acceptance: Service recovery strategies
+  - Acceptance: Regulatory compliance requirements
+
+## Phase 3: Submit Complaint Command
+*Dependencies: Phase 2*
+*Estimated: 0.5 sessions*
+
+- [x] Create `health/commands/submit-complaint.md`
+  - Acceptance: Intake form template
+  - Acceptance: Initial triage logic
+  - Acceptance: Assignment workflow
 
 **Checkpoint:** `conductor(checkpoint): Health complaints workflow complete`
-
-## Notes
-
-- May need to coordinate with `health-incidents` track - some complaints may trigger incident reports
-- Regulatory reporting requirements vary by jurisdiction - parameterize

@@ -4,7 +4,7 @@
 *Dependencies: health-core*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/systematic-review/SKILL.md`
+- [x] Create `health/skills/systematic-review/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: Implements [Hybrid Evidence Management](../health-plugin/interoperability-standards.md)
   - Acceptance: AU/NZ evidence and governance defaults are explicit, with US/EU-lite fallback
@@ -22,7 +22,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1 session*
 
-- [ ] Create `health/skills/evidence-synthesis/SKILL.md`
+- [x] Create `health/skills/evidence-synthesis/SKILL.md`
   - Acceptance: Review type selection guidance
   - Acceptance: Scoping/rapid review adaptations
   - Acceptance: Evidence mapping methodology
@@ -31,7 +31,7 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [ ] Create `health/commands/start-review.md`
+- [x] Create `health/commands/start-review.md`
   - Acceptance: Review type selection
   - Acceptance: Protocol template generation
   - Acceptance: Project setup checklist

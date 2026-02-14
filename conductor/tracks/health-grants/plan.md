@@ -4,7 +4,7 @@
 *Dependencies: health-core*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/grant-writer/SKILL.md`
+- [x] Create `health/skills/grant-writer/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: Implements [Hybrid Evidence Management](../health-plugin/interoperability-standards.md)
   - Acceptance: AU/NZ funder defaults (NHMRC/MRFF/HRC) are explicit, with US/EU-lite fallback
@@ -22,7 +22,7 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [ ] Create `health/commands/grant-application.md`
+- [x] Create `health/commands/grant-application.md`
   - Acceptance: Funder selection
   - Acceptance: Scheme selection
   - Acceptance: Generates application checklist

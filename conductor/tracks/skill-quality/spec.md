@@ -2,13 +2,14 @@
 
 ## Overview
 
-Establish quality standards and templates specifically for health plugin skills. These standards ensure consistency across all 30 planned health skills, with healthcare-specific considerations for compliance, privacy, and clinical accuracy.
+Establish quality standards and templates specifically for health plugin skills. These standards ensure consistency across all 33 planned health skills, with healthcare-specific considerations for compliance, privacy, and clinical accuracy.
 
 ## Health-Specific Quality Requirements
 
 ### 1. Regulatory & Compliance Context
 Every health skill must include:
-- **Applicable regulations** (HIPAA, HITECH, state privacy laws, etc.)
+- **Applicable regulations** with AU/NZ as the default baseline
+- **US/EU-lite portability guidance** when requested
 - **Compliance checkpoints** specific to the workflow
 - **Documentation requirements** for audit trails
 
@@ -33,7 +34,8 @@ Every health skill must include:
 ```markdown
 ---
 name: health-skill-name
-description: One-line description. Use when [trigger condition 1], [trigger condition 2].
+description: This skill should be used when the user asks to "[trigger 1]", "[trigger 2]".
+version: 0.2.0
 ---
 
 # Skill Name
@@ -53,8 +55,8 @@ Invoke when:
 
 | Regulation | Relevance | Key Requirements |
 |------------|-----------|------------------|
-| HIPAA | [How it applies] | [Specific requirements] |
-| [Other] | [How it applies] | [Specific requirements] |
+| AU/NZ Baseline | [How it applies] | [Specific requirements] |
+| US/EU-lite (optional) | [How it applies] | [Specific requirements] |
 
 ## Quick Reference
 
@@ -93,6 +95,17 @@ Escalate to [appropriate party] when:
 - **Data minimization**: [Guidance]
 - **Retention**: [How long to keep outputs]
 
+## Confidence Indicators
+
+| Scenario | Confidence | Action |
+|----------|------------|--------|
+| [Scenario] | High/Medium/Low | [Escalation behavior] |
+
+## Standard and Lite Modes
+
+- **Standard**: Full workflow
+- **Lite**: Minimum safe guidance for constrained contexts
+
 ## Tool Requirements
 
 - \`~~cloud storage\` - For document storage
@@ -118,13 +131,15 @@ You've applied this skill well when:
 |---------|----------|-----------|----------------------------|
 | Frontmatter | Yes | 3 | Name, description with clinical triggers |
 | When to Use | Yes | 5 | Explicit clinical/operational scenarios |
-| Regulatory Context | Yes | 10 | HIPAA, state laws, accreditation standards |
+| Regulatory Context | Yes | 10 | AU/NZ baseline plus US/EU-lite portability |
+| Confidence Indicators | Yes | 8 | Safe autonomy and escalation thresholds |
 | Quick Reference | Complex skills | 10 | Fast path for routine cases |
 | Detailed Guidance | Yes | 50+ | Step-by-step clinical/operational procedures |
 | Documentation Requirements | Yes | 10 | Required elements for medical records |
 | Common Mistakes | Yes | 10 | Healthcare-specific anti-patterns |
 | When to Escalate | Yes | 5 | Criteria for involving SMEs/leadership |
 | Privacy Considerations | Yes | 10 | PHI handling, de-identification, retention |
+| Standard and Lite Modes | Yes | 5 | Full vs constrained operation modes |
 | Tool Requirements | Yes | 5 | MCP connector dependencies |
 | Success Indicators | Yes | 5 | Compliance and quality gates |
 | Related Skills | Yes | 3 | Cross-references within health plugin |
@@ -133,15 +148,17 @@ You've applied this skill well when:
 
 Before any health skill is considered complete:
 
-- [ ] Minimum 200 lines total (health skills require more detail)
+- [ ] Minimum 300 lines total (health skills require more detail)
 - [ ] All required sections present
-- [ ] Regulatory context includes at least HIPAA relevance
-- [ ] At least 3 "Common Mistakes" documented
+- [ ] Regulatory context includes AU/NZ baseline and US/EU-lite portability notes
+- [ ] At least 5 "Common Mistakes" documented
+- [ ] At least 3 confidence indicator scenarios documented
 - [ ] At least 2 "Related Skills" referenced (within health plugin preferred)
 - [ ] At least 3 "Success Indicators" defined
 - [ ] Privacy considerations section complete
 - [ ] When to Escalate section with clear criteria
 - [ ] Appropriate healthcare disclaimers included
+- [ ] Standard and Lite modes are documented
 - [ ] No placeholder content (e.g., "TODO", "TBD")
 - [ ] Documentation requirements align with medical record standards
 

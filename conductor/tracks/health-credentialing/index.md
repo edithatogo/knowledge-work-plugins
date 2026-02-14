@@ -1,16 +1,16 @@
-# Health-credentialing Track
+# Health Credentialing and Privileging
 
-## Documents
+Track implementing medical staff credentialing and privileging workflows.
 
-- [Specification](./spec.md)
-- [Implementation Plan](./plan.md)
-- [Metadata](./metadata.json)
+## Deliverables
 
-## Quick Links
-
-- [Project Index](../../index.md)
-- [Tracks Registry](../../tracks.md)
+- **Skills**: credentialing, privileging
+- **Commands**: /verify-credentials
 
 ## Status
 
-See [metadata.json](./metadata.json) for current status and dependencies.
+Complete
+
+## Dependencies
+
+- health-core

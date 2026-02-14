@@ -1,16 +1,16 @@
-# Health-complaints Track
+# Health Complaints Management
 
-## Documents
+Track implementing complaint management workflows for healthcare organizations.
 
-- [Specification](./spec.md)
-- [Implementation Plan](./plan.md)
-- [Metadata](./metadata.json)
+## Deliverables
 
-## Quick Links
-
-- [Project Index](../../index.md)
-- [Tracks Registry](../../tracks.md)
+- **Skills**: complaint-analysis, response-drafting
+- **Commands**: /submit-complaint
 
 ## Status
 
-See [metadata.json](./metadata.json) for current status and dependencies.
+Complete
+
+## Dependencies
+
+- health-core

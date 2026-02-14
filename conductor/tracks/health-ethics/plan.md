@@ -4,7 +4,7 @@
 *Dependencies: health-core*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/research-ethics/SKILL.md`
+- [x] Create `health/skills/research-ethics/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: AU/NZ ethics defaults (NHMRC/HRC) are explicit, with US/EU-lite fallback
   - Acceptance: Standard mode and Lite mode are explicitly documented
@@ -20,7 +20,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1 session*
 
-- [ ] Create `health/skills/clinical-ethics/SKILL.md`
+- [x] Create `health/skills/clinical-ethics/SKILL.md`
   - Acceptance: Consultation request workflow
   - Acceptance: Case analysis framework
   - Acceptance: Committee preparation guidance
@@ -29,7 +29,7 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [ ] Create `health/commands/ethics-review.md`
+- [x] Create `health/commands/ethics-review.md`
   - Acceptance: Review type selection
   - Acceptance: Routes to appropriate skill
 

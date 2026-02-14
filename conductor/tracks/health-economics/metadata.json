@@ -2,7 +2,7 @@
   "track_id": "health-economics",
   "name": "Health Economics",
   "description": "Health economic evaluation - cost-effectiveness, cost-utility, HTA submissions, PBAC/MSAC/NICE perspectives",
-  "status": "planning",
+  "status": "complete",
   "created": "2026-02-11",
   "priority": "high",
   "dependencies": ["health-core", "health-evidence"],

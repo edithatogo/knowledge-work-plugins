@@ -1,18 +1,16 @@
-# Health Risk Track
+# Health Risk Management
 
-## Documents
+Track implementing comprehensive risk management for healthcare organizations.
 
-- [Specification](./spec.md)
-- [Implementation Plan](./plan.md)
-- [Metadata](./metadata.json)
+## Deliverables
 
-## Quick Links
-
-- [Project Index](../../index.md)
-- [Tracks Registry](../../tracks.md)
+- **Skills**: clinical-risk, worker-risk, enterprise-risk
+- **Commands**: /assess-risk
 
 ## Status
 
-See [metadata.json](./metadata.json) for current status and dependencies.
+Complete
 
-Default jurisdiction profile for this track is Australia/New Zealand with US/EU-lite variants as needed.
+## Dependencies
+
+- health-core

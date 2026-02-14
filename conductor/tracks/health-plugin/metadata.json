@@ -2,8 +2,9 @@
   "track_id": "health-plugin",
   "name": "Health Plugin Program",
   "description": "Meta-track coordinating 17 health implementation tracks",
-  "status": "planning",
+  "status": "complete",
   "created": "2026-02-11",
+  "completed": "2026-02-14",
   "priority": "high",
   "type": "meta",
   "tracks": [
@@ -24,7 +25,10 @@
     "health-economics",
     "health-manuscripts",
     "health-grants",
-    "health-medicolegal"
+    "health-medicolegal",
+    "health-public-health",
+    "health-doc-coauthoring",
+    "skill-quality"
   ],
   "total_skills": 30,
   "total_commands": 14,

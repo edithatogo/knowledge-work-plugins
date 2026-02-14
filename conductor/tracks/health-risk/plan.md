@@ -1,38 +1,41 @@
-# Health Risk Assessment Track Plan
+# Health Risk Management Track Plan
 
 ## Phase 1: Clinical Risk Skill
 *Dependencies: health-core*
-*Estimated: 1-2 sessions*
+*Estimated: 1 session*
 
-- [x] Create `health/skills/clinical-risk-assessment/SKILL.md`
-  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
-  - Acceptance: AU/NZ risk-governance defaults are explicit, with US/EU-lite fallback
-  - Acceptance: Standard mode and Lite mode are explicitly documented
-  - Acceptance: Confidence Indicators for medical risk scoring
-  - Acceptance: Structured risk taxonomy for clinical contexts
-  - Acceptance: Severity and likelihood scoring guidance
-  - Acceptance: Control selection and residual risk documentation
-  - Source patterns: `legal/legal-risk-assessment`
+- [x] Create `health/skills/clinical-risk/SKILL.md`
+  - Acceptance: Follows health skill standards (14-section template)
+  - Acceptance: Risk identification frameworks
+  - Acceptance: Risk assessment matrices
+  - Acceptance: Clinical risk scenarios
+  - Acceptance: AU/NZ risk management standards
 
-## Phase 2: Worker and Enterprise Risk Skills
+## Phase 2: Worker Risk Skill
 *Dependencies: Phase 1*
-*Estimated: 1-2 sessions*
+*Estimated: 0.5 sessions*
 
-- [x] Create `health/skills/worker-risk-assessment/SKILL.md`
-  - Acceptance: Workforce and occupational hazard checklist
-  - Acceptance: Escalation criteria and urgent action triggers
+- [x] Create `health/skills/worker-risk/SKILL.md`
+  - Acceptance: Occupational hazards identification
+  - Acceptance: WHS compliance guidance
+  - Acceptance: Incident linkage
 
-- [x] Create `health/skills/enterprise-risk-assessment/SKILL.md`
-  - Acceptance: Enterprise risk categories and ownership mapping
-  - Acceptance: Governance review and reporting cadence
+## Phase 3: Enterprise Risk Skill
+*Dependencies: Phase 2*
+*Estimated: 0.5 sessions*
 
-## Phase 3: Assess Risk Command
-*Dependencies: Phase 1, Phase 2*
-*Estimated: 0.5-1 session*
+- [x] Create `health/skills/enterprise-risk/SKILL.md`
+  - Acceptance: Enterprise risk categories
+  - Acceptance: Risk appetite frameworks
+  - Acceptance: Board reporting templates
+
+## Phase 4: Assess Risk Command
+*Dependencies: Phase 3*
+*Estimated: 0.5 sessions*
 
 - [x] Create `health/commands/assess-risk.md`
-  - Acceptance: Intake prompts for risk domain selection
-  - Acceptance: Recommended controls and residual risk output
-  - Acceptance: Escalation and follow-up checklist
+  - Acceptance: Risk assessment initiation
+  - Acceptance: Risk scoring guidance
+  - Acceptance: Treatment planning
 
-**Checkpoint:** `conductor(checkpoint): Health risk assessment workflow complete`
+**Checkpoint:** `conductor(checkpoint): Health risk management workflow complete`

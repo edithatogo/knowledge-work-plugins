@@ -1,48 +1,75 @@
-# Health Complaints Track Specification
+# Health Complaints Management Specification
 
 ## Overview
 
-Patient complaints management workflows distinguishing between clinician complaints and service/organizational complaints.
+Complaint management for healthcare organizations including patient/family complaint triage, service recovery, and response drafting. Ensures timely, compassionate, and compliant resolution of concerns.
 
 ## Scope
 
 ### Complaint Types
-
-| Type | Focus | Examples |
-|------|-------|----------|
-| **Clinician** | Individual practitioner performance/conduct | Bedside manner, competence, communication |
-| **Service/Organizational** | Systems, processes, facilities | Wait times, access, environment, administrative |
+- Clinical care concerns
+- Communication issues
+- Wait times and access
+- Billing disputes
+- Privacy breaches
+- Visitor/staff interactions
 
 ### Workflows
+- Initial complaint intake and triage
+- Investigation and fact-finding
+- Service recovery actions
+- Response letter drafting
+- Resolution tracking
+- Trend analysis
 
-1. **Intake** - Categorization, severity assessment, routing
-2. **Investigation** - Fact gathering, interviews, documentation
-3. **Resolution** - Response drafting, remediation, closure
-4. **Escalation** - When to escalate to legal, regulatory, or executive
-
-### Key Distinctions from General Support
-
-- Healthcare-specific severity (patient safety implications)
-- Regulatory reporting obligations
-- Clinical governance involvement
-- Medical records access considerations
+### Stakeholders
+- Patients and families
+- Patient advocacy/relations
+- Clinical staff
+- Quality/safety teams
+- Executive leadership
+- External regulators (when required)
 
 ## Deliverables
 
 ### Skills
-- `complaints-management` - Unified complaints workflow with type differentiation
+- `complaint-analysis` - Triage and categorize complaints
+- `response-drafting` - Draft complaint responses
 
 ### Commands
-- `/submit-complaint` - Structured complaint intake
+- `/submit-complaint` - Initiate complaint workflow
 
 ## Dependencies
 
-- `health-core` (plugin structure must exist)
+- `health-core` (plugin structure)
+- `health-governance` (for policy alignment)
+
+## Adapts From
+
+- `customer-support/ticket-triage` - Triage patterns
+- `customer-support/canned-responses` - Response templates
 
 ## Success Criteria
 
-- [ ] Categorizes complaints by type (clinician vs service)
-- [ ] Assesses severity with healthcare context
-- [ ] Routes to appropriate investigation path
-- [ ] Identifies regulatory reporting triggers
-- [ ] Generates investigation documentation
+- [ ] Guides complaint categorization by severity/type
+- [ ] Provides response templates by complaint category
+- [ ] Tracks resolution timeframes
+- [ ] Identifies systemic issues for QI
+- [ ] Maintains regulatory compliance
+
+## Regulatory Context
+
+### Australia
+- Australian Charter of Healthcare Rights
+- State/Territory complaint handling legislation
+- Aged Care Quality Standards (if applicable)
+
+### New Zealand
+- Health and Disability Commission Code
+- Code of Health and Disability Services Consumers' Rights
+
+### Escalation Thresholds
+- Serious clinical harm
+- Media involvement
+- Legal action threatened
+- Regulatory body contact

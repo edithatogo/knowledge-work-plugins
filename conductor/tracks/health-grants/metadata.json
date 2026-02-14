@@ -2,7 +2,7 @@
   "track_id": "health-grants",
   "name": "Health Grants",
   "description": "Grant/funding application support - NHMRC, MRFF, HRC (NZ), ARC health-related",
-  "status": "planning",
+  "status": "complete",
   "created": "2026-02-11",
   "priority": "medium",
   "dependencies": ["health-core", "health-evidence"],

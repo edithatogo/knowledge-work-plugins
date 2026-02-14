@@ -10,9 +10,9 @@ Quality standards and templates for health plugin skills.
 
 ## Overview
 
-This track establishes quality standards specifically for the 30 planned health plugin skills, ensuring:
+This track establishes quality standards specifically for the 33 planned health plugin skills, ensuring:
 
-1. **Regulatory compliance** - HIPAA, state laws, accreditation standards
+1. **Regulatory compliance** - AU/NZ-default with US/EU-lite portability
 2. **Clinical accuracy** - Appropriate disclaimers and escalation criteria
 3. **Privacy protection** - PHI handling, de-identification, retention
 4. **Workflow integration** - EHR considerations, documentation standards
@@ -22,31 +22,35 @@ This track establishes quality standards specifically for the 30 planned health 
 | Phase | Focus | Output |
 |-------|-------|--------|
 | 1 | Standards & Templates | Health skill template, style guide, quality checklist |
-| 2 | Skill Support | Templates for all 30 health skills across 17 tracks |
+| 2 | Skill Support | Templates for all 33 health skills across active health tracks |
 
 ## Health Skill Requirements
 
-### Required Sections (12)
+### Required Sections (14)
 - When to Use This Skill
 - Regulatory Context
+- Confidence Indicators
 - Quick Reference (for complex skills)
 - Detailed Guidance
 - Documentation Requirements
 - Common Mistakes
 - When to Escalate
 - Privacy Considerations
+- Standard and Lite Modes
 - Tool Requirements
 - Success Indicators
 - Related Skills
 
-### Quality Gates (11)
-- Minimum 200 lines total
+### Quality Gates
+- Minimum 300 lines total
 - All required sections present
-- HIPAA relevance documented
+- AU/NZ-default jurisdiction matrix present
+- US/EU-lite variant guidance present
 - Healthcare disclaimers included
 - Privacy considerations complete
 - Escalation criteria defined
-- 3+ Common Mistakes
+- 5+ Common Mistakes
+- 3+ Confidence Indicator scenarios
 - 2+ Related Skills
 - 3+ Success Indicators
 - Documentation requirements clear
@@ -54,6 +58,7 @@ This track establishes quality standards specifically for the 30 planned health 
 
 ## Status
 
-**Current:** Planning
+**Current:** Complete
+**Completed:** 2026-02-14
 **Priority:** Medium
 **Dependencies:** health-core

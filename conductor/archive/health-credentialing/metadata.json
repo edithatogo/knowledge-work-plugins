@@ -2,10 +2,14 @@
   "track_id": "health-credentialing",
   "name": "Health Credentialing",
   "description": "Provider credentialing, privileging, license verification, and clinical staff onboarding/offboarding",
-  "status": "planning",
+  "status": "complete",
   "created": "2026-02-11",
   "priority": "medium",
-  "dependencies": ["health-core"],
+  "dependencies": [
+    "health-core"
+  ],
   "deliverable": "credentialing, privileging skills, /verify-credentials command",
-  "adapts_from": ["productivity/memory-management"]
+  "adapts_from": [
+    "productivity/memory-management"
+  ]
 }

@@ -4,7 +4,7 @@
 *Dependencies: health-core, health-evidence*
 *Estimated: 2 sessions*
 
-- [ ] Create `health/skills/health-econ-eval/SKILL.md`
+- [x] Create `health/skills/health-econ-eval/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: Implements [Hybrid Evidence Management](../health-plugin/interoperability-standards.md)
   - Acceptance: AU/NZ HTA defaults (PBAC/MSAC/PHARMAC) are explicit, with US/EU-lite fallback
@@ -23,7 +23,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/hta-submission/SKILL.md`
+- [x] Create `health/skills/hta-submission/SKILL.md`
   - Acceptance: PBAC submission template
   - Acceptance: MSAC submission template
   - Acceptance: NICE submission template
@@ -34,7 +34,7 @@
 *Dependencies: Phase 1*
 *Estimated: 0.5 sessions*
 
-- [ ] Create `health/commands/economic-evaluation.md`
+- [x] Create `health/commands/economic-evaluation.md`
   - Acceptance: Evaluation type intake
   - Acceptance: Jurisdiction selection
   - Acceptance: Generates evaluation plan

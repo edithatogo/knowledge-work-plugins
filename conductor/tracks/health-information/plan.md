@@ -1,36 +1,32 @@
-# Health Information Management Track Plan
+# Health Information Governance Track Plan
 
 ## Phase 1: Release of Information Skill
 *Dependencies: health-core*
-*Estimated: 1-2 sessions*
+*Estimated: 1 session*
 
 - [x] Create `health/skills/release-of-information/SKILL.md`
-  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
-  - Acceptance: AU/NZ default jurisdiction matrix plus US/EU-lite variant guidance
-  - Acceptance: Standard mode and Lite mode are explicitly documented
-  - Acceptance: PHI/PII guardrails (Minimum Necessary Principle)
-  - Acceptance: Authorization validation checklist
-  - Acceptance: Request types and processing timelines
-  - Acceptance: Minimum necessary guidance
-  - Acceptance: Accounting of disclosures requirements
-  - Source patterns: `legal/compliance`, `customer-support/response-drafting`
+  - Acceptance: Follows health skill standards (14-section template)
+  - Acceptance: Request validation workflows
+  - Acceptance: Authorization verification
+  - Acceptance: AU/NZ privacy law alignment
+  - Acceptance: Response timeframes
 
 ## Phase 2: Consent Management Skill
 *Dependencies: Phase 1*
-*Estimated: 1 session*
+*Estimated: 0.5 sessions*
 
 - [x] Create `health/skills/consent-management/SKILL.md`
-  - Acceptance: Consent type taxonomy
-  - Acceptance: Documentation requirements
+  - Acceptance: Consent types and requirements
   - Acceptance: Capacity assessment guidance
+  - Acceptance: Withdrawal procedures
 
 ## Phase 3: Process ROI Command
-*Dependencies: Phase 1*
+*Dependencies: Phase 2*
 *Estimated: 0.5 sessions*
 
 - [x] Create `health/commands/process-roi.md`
   - Acceptance: ROI request intake
-  - Acceptance: Validation workflow
-  - Acceptance: Processing checklist
+  - Acceptance: Validation checklist
+  - Acceptance: Tracking workflow
 
-**Checkpoint:** `conductor(checkpoint): Health information management workflow complete`
+**Checkpoint:** `conductor(checkpoint): Health information governance workflow complete`

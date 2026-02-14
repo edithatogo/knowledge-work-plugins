@@ -18,6 +18,7 @@
 - Test all commands
 - Validate skill instructions
 - Check markdown formatting
+- Run Conductor track validator: `python conductor/scripts/validate_tracks.py`
 
 ### 3. Review Process
 - Peer review for content accuracy
@@ -29,6 +30,13 @@
 ### Local Testing
 ```bash
 claude plugin install ./path/to/plugin
+python conductor/scripts/validate_tracks.py
+```
+
+### Pre-commit Setup
+```bash
+pip install pre-commit
+pre-commit install
 ```
 
 ### Command Testing
