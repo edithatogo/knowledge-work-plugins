@@ -4,7 +4,7 @@
 *Dependencies: health-core, health-coding*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/health-data-report/SKILL.md`
+- [x] Create `health/skills/health-data-report/SKILL.md` [c12bd7d]
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: Includes Confidence Indicators for statistical validity
   - Acceptance: AU/NZ reporting defaults are explicit, with US/EU-lite fallback
